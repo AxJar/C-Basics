@@ -1,0 +1,2 @@
+En conclusión dividí mi juego en 3 clases , los dados , las propiedades del tablero y el juego, ya que de esa forma se me hizo mas sencillo la realización del juego, 
+tambien siento que me llevo mas tiempo de lo habitual entender la logica del juego y se me hizo un poco larga

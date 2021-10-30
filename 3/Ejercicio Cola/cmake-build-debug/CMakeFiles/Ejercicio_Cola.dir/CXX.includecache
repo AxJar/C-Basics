@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3.1/Ejercicio Cola/main.cpp
+iostream
+-
+queue
+-
+

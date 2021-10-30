@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3.1/hola/DemoFac.h
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3.1/hola/main.cpp
+iostream
+-
+DemoFac.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3.1/hola/DemoFac.h
+

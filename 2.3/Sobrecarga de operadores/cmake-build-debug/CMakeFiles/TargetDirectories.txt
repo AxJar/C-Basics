@@ -1,0 +1,3 @@
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Sobrecarga de operadores/cmake-build-debug/CMakeFiles/Sobrecarga_de_operadores.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Sobrecarga de operadores/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Sobrecarga de operadores/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Factorial/Facto.cpp
+Facto.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Factorial/Facto.h
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Factorial/Facto.h
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Factorial/main.cpp
+iostream
+-
+Facto.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Factorial/Facto.h
+

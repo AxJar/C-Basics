@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Fibon.cpp
+Fibon.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Fibon.h
+iostream
+-
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Fibon.h
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Prob1.cpp
+Prob1.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Prob1.h
+iostream
+-
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Prob1.h
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/main.cpp
+iostream
+-
+Fibon.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Fibon.h
+Prob1.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/S2s2/Prob1.h
+

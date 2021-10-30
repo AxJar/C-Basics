@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Pilas_y__y_Filas.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\Pilas_y__y_Filas.dir/objects.a @CMakeFiles\Pilas_y__y_Filas.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Pilas_y__y_Filas.dir/objects.a -Wl,--no-whole-archive -o Pilas_y__y_Filas.exe -Wl,--out-implib,libPilas_y__y_Filas.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Pilas_y__y_Filas.dir\linklibs.rsp

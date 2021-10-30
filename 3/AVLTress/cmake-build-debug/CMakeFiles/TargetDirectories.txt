@@ -1,0 +1,3 @@
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/AVLTress/cmake-build-debug/CMakeFiles/AVLTress.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/AVLTress/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/AVLTress/cmake-build-debug/CMakeFiles/rebuild_cache.dir

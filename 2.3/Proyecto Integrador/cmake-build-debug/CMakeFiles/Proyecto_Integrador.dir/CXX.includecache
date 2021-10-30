@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Episode.h
+iostream
+-
+string
+-
+Video.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Video.h
+Serie.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Serie.h
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Movie.h
+iostream
+-
+string
+-
+Video.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Video.h
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Serie.h
+Video.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Video.h
+istream
+-
+string
+-
+iostream
+-
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Video.h
+string
+-
+iostream
+-
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/main.cpp
+iostream
+-
+cstdlib
+-
+fstream
+-
+string
+-
+sstream
+-
+ctime
+-
+vector
+-
+Video.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Video.h
+Movie.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Movie.h
+Serie.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Serie.h
+Episode.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/2.3/Proyecto Integrador/Episode.h
+

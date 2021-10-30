@@ -1,0 +1,3 @@
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Polish/cmake-build-debug/CMakeFiles/Polish.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Polish/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Polish/cmake-build-debug/CMakeFiles/rebuild_cache.dir

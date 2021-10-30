@@ -1,0 +1,3 @@
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Pilas y  y Filas/cmake-build-debug/CMakeFiles/Pilas_y__y_Filas.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Pilas y  y Filas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/Pilas y  y Filas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

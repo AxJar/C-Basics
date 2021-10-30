@@ -1,0 +1,10 @@
+00 Playera_gamer 200
+10 Telefono_gamer 3500
+20 Computadora_gamer 24000
+30 Audifonos_gamer 4000
+40 Mouse_rgb 1500
+50 Alfombrilla_rgb 700
+60 Silla_gamer 3500
+70 Escritorio_gamer 10000
+80 Bocina_gamer 3800
+90 Chicles_gamer 100

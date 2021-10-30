@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/2.3/Lista.h
+iostream
+-
+fstream
+-
+string
+-
+string.h
+-
+string
+-
+
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/2.3/main.cpp
+iostream
+-
+cstring
+-
+cstdio
+-
+bits/stdc++.h
+-
+vector
+-
+cstdlib
+-
+fstream
+-
+cmath
+-
+Lista.h
+C:/Users/axela/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/TEC/Subjects/Programming/C++/3/2.3/Lista.h
+

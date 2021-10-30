@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown",
+        "string": "c",
+        "iostream": "cpp",
+        "tablero.h": "c"
+    }
+}
