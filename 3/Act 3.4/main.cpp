@@ -2,9 +2,10 @@
 //PROGRAMADORES: León Emiliano García Pérez (A00573074), Leonardo Luna Flores (A01633305), Axel Jarquín Morga(A01636324).
 //FECHA DE ENTREGA: OCT 30, 2021.
 
+// https://replit.com/@LeonProgramador/NewWorldMetaverse
+
 //Inclusión de las Librerías y Clases
 #include <iostream>
-#include <fstream>
 #include "DoubleLinkedList.h"
 #include "MyBST.h"
 
@@ -21,7 +22,7 @@ int main() {
     try {
         ifstream is;
         is.open(archivo);
-        if (!is) throw ios::failure("No se puede encontrar el archivo");
+//        if (!is) throw ios::failure("No se puede encontrar el archivo");
         string str;
         // Obtiene cada línea del archivo y crea una lista doblemente ligada
         while (getline(is, str)) {
