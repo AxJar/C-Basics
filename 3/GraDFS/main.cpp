@@ -71,8 +71,7 @@ void DFS(Graph const& graph, int v, vector<bool>& discovered)
     }
 }
 
-int main()
-{
+int main(){
     vector<Edge> edges = {
             //0 is unconnected node
             {1, 2}, {1, 7}, {1, 8}, {2, 3}, {2, 6}, {3, 4},

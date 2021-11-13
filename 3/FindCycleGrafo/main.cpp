@@ -28,7 +28,7 @@ void Graph::addEdge(int v, int w)
 // This function is a variation of DFSUtil() in https://www.geeksforgeeks.org/archives/18212
 bool Graph::isCyclicUtil(int v, bool visited[], bool* recStack)
 {
-    if (visited[v] == false)
+    if (!visited[v])
     {
         // Mark the current node as visited and part of recursion stack
         visited[v] = true;
