@@ -13,7 +13,7 @@
 #include <fstream>
 #include "DoubleLinkedList.h"
 
-//Ajuste a estandar
+//Ajuste a estándar
 using namespace std;
 
 //Función que crea un espacio en la consola, no recibe parámetros y no tiene valores de retorno.
@@ -59,7 +59,7 @@ void imprimeFanOut(FanOut FO){
     intro();
 }
 
-//Función que imprime datos tipo NodoMain,recibe un dato NodoMain de parémtro sin valor de retorno
+//Función que imprime datos tipo NodoMain,recibe un dato NodoMain de parámetro sin valor de retorno
 void imprimeNodoMain(NodoMain nM){
     intro();
     cout<<"Nodo con valor "<<nM.valor<<" ["<< nM.conexion<<" conexiones]"<<endl;
@@ -81,7 +81,7 @@ public:
     }
 };
 
-//Función que implementa el constructor de un Graphque recibe un vector de Edges Constante Referenciado y un valor entero, retorna el Graph construido.
+//Función que implementa el constructor de un Graph que recibe un vector de Edges Constante Referenciado y un valor entero, retorna el Graph construido.
 Graph loadGraph(vector<Edge> const& edges, int N){
     Graph graph(edges,N);
     return graph;
@@ -110,7 +110,7 @@ void BFS(Graph const& graph, int N){ //Complejidad Computacional:  O(v+e), donde
     vector<bool> discoveredB(N, false);
     cout<<"BFS: "<<endl;
     for (int i = 0; i < N; i++) {
-        if (discoveredB[i] == false) {
+        if (!discoveredB[i]) {
             bfs(graph, i, discoveredB);
         }
     }
@@ -248,8 +248,8 @@ NodoMain determinarMayorNM(vector<NodoMain> nodosMain){ //Complejidad Computacio
 //Función que imprime los Nodos main, recibe un Vector de NodoMoain y no tiene valor de Retorno.
 void imprimeNodosMain(vector<NodoMain>& nodosMain){
     intro();
-    for (int i=0;i<nodosMain.size();i++){
-        cout<<nodosMain[i].valor<<" -> "<< nodosMain[i].conexion<< " conexiones"<<endl;
+    for (auto & i : nodosMain){
+        cout<<i.valor<<" -> "<< i.conexion<< " conexiones"<<endl;
     }
     intro();
 }
@@ -326,7 +326,7 @@ int main() {
     imprimeFanOut(fanOutMayor);
 
     //NODOS MAIN
-    cout<<"Los Nodos Main dentro de la conceptualizacion del Grafo presentan...";
+    cout<<"Los Nodos Main dentro de la conceptualización del Grafo presentan...";
     vector<NodoMain> nodosMain=encuentraNodosMain(edges);
     imprimeNodosMain(nodosMain);
 
