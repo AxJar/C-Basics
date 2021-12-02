@@ -88,7 +88,7 @@ Graph loadGraph(vector<Edge> const& edges, int N){
 }
 
 //Función que implementa el recorrido BFS, recibe un Graph Constante Referenciado, un valor entero y un vector referenciado de booleanos.
-void bfs(Graph const& graph, int v, vector<bool>& discovered){ //Complejidad Computacional:  O(v+e), donde v es el número total de vertices y e el número total de edges en el Graph. Se recalca que O(e) puede ir desde O(1) hasta O(v^2) dependiendo de la densidad del Graph.
+void BFS(Graph const& graph, int v, vector<bool>& discovered){ //Complejidad Computacional:  O(v+e), donde v es el número total de vertices y e el número total de edges en el Graph. Se recalca que O(e) puede ir desde O(1) hasta O(v^2) dependiendo de la densidad del Graph.
     queue<int> q;
     discovered[v] = true;
     q.push(v);
@@ -111,19 +111,19 @@ void BFS(Graph const& graph, int N){ //Complejidad Computacional:  O(v+e), donde
     cout<<"BFS: "<<endl;
     for (int i = 0; i < N; i++) {
         if (!discoveredB[i]) {
-            bfs(graph, i, discoveredB);
+            BFS(graph, i, discoveredB);
         }
     }
     intro(); intro();
 }
 
 //Función que implementa el recorrido DFS, recibe un Graph Constante Referenciado, un valor entero y un vector referenciado de booleanos.
-void dfs(Graph const& graph, int v, vector<bool>& discovered){ //Complejidad Computacional:  O(v+e), donde v es el número total de vertices y e el número total de edges en el Graph. Se recalca que O(e) puede ir desde O(1) hasta O(v^2) dependiendo de la densidad del Graph.
+void DFS(Graph const& graph, int v, vector<bool>& discovered){ //Complejidad Computacional:  O(v+e), donde v es el número total de vertices y e el número total de edges en el Graph. Se recalca que O(e) puede ir desde O(1) hasta O(v^2) dependiendo de la densidad del Graph.
     discovered[v] = true;
     cout << v << " ";
     for (int u : graph.adjList[v]){
         if (!discovered[u])
-            dfs(graph, u, discovered);
+            DFS(graph, u, discovered);
     }
 }
 
@@ -133,12 +133,12 @@ void DFS(Graph const& graph, int N){ //Complejidad Computacional:  O(v+e), donde
     cout<<"DFS: "<<endl;
     for (int i = 0; i < N; i++){
         if (!discovered[i])
-            dfs(graph, i, discovered);
+            DFS(graph, i, discovered);
     }
     intro(); intro();
 }
 
-//Función que actualiza el vector de Edges y el valor entero de N, éstos anteriores son llamados por referencia en los parámetros de la función,no tiene valor de retorno.
+//Función que actualiza el vector de Edges y el valor entero de N, estos anteriores son llamados por referencia en los parámetros de la función, no tiene valor de retorno.
 void actualizaEdgesYN(vector<Edge>& edges, int& N){ //Complejidad Computacional: O(n), donde n es el número de líneas que contiene el archivo a analizar. Se recalca que la complejidad puede ir desde O(1) hasta O(n) dependiendo de la longitud del archivo.
     int a, b, valMax;
     string linea, intermediate, bString, nombreArchivo;
@@ -189,7 +189,7 @@ void actualizaEdgesYN(vector<Edge>& edges, int& N){ //Complejidad Computacional:
     N=valMax+1;
 }
 
-//Función que Analiza las Conexiones, recibe como Parámetro el Vector de éstas (El vector de Edges) y retorna un vector de FanOuts.
+//Función que Analiza las Conexiones, recibe como Parámetro el Vector de estas (El vector de Edges) y retorna un vector de FanOuts.
 vector<FanOut> analizaConexiones(vector<Edge>& edges){ //Complejidad Computacional: O(n), donde n es la cantidad de elementos presentes dentro del vector. Se recalca que la Complejidad puede ir desde O(1) hasta O(n) dependiendo de la longitud del vector.
     vector <FanOut> conexiones;
     Edge temp;
@@ -331,7 +331,7 @@ int main() {
     imprimeNodosMain(nodosMain);
 
     //EL MAYOR NODO MAIN
-    cout<<"De los Nodos, el que presenta Mayor Cantidad de Interaccion (Mayor Cantidad de Conexiones con OTROS nodos) es el...";
+    cout<<"De los Nodos, el que presenta Mayor Cantidad de Interaccion (Mayor Cantidad de Conexiones con OTROS nodos) es él...";
     NodoMain nodoMainSuperior=determinarMayorNM(nodosMain);
     imprimeNodoMain(nodoMainSuperior);
 

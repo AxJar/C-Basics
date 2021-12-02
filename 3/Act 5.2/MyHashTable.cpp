@@ -7,6 +7,7 @@ using namespace std;
 
 // Constructor default de la tabla hash con un tamaño de arreglo de 15000.
 // Complejidad: O(1)
+//No recibe parámetros.
 MyHashTable::MyHashTable() {
     this->size = 0;
     this->sizeA = 15000;
@@ -15,18 +16,21 @@ MyHashTable::MyHashTable() {
 
 // Destructor de la tabla hash
 // Complejidad: O(n)
+//No recibe parámetros.
 MyHashTable::~MyHashTable() {
     delete[] this->tabla;
 }
 
 // Método para checar si la tabla hash está vacía.
 // Complejidad O(1)
+//No recibe parámetros, retorna un valor booleano.
 bool MyHashTable::isEmpty() const {
     return this->size == 0;
 }
 
 // Método para rehacer la tabla si el factor de carga supera 0.75.
 // Complejidad: O(n)
+//No recibe parámetros, no tiene valor de retorno.
 void MyHashTable::rehashing() {
     MyLinkedList *tempTabla = this->tabla;
     this->sizeA = ((this->sizeA * 2) + 1);
@@ -45,6 +49,7 @@ void MyHashTable::rehashing() {
 
 // Método para calcular la posicion de una llave en la tabla.
 // Complejidad: O(1)
+//Recibe como parámetros una constante string referenciada y retorna un valor entero.
 int MyHashTable::getPos(const string &key) const {
     size_t hashT = hash<string>{}(key);
     int hashCode = static_cast<int>(hashT);
@@ -53,6 +58,7 @@ int MyHashTable::getPos(const string &key) const {
 
 // Método para añadir un objeto de tipo RegisterEntry a la tabla hash si la ip ya existe, se añade junto con la fecha y la cantidad de veces que se repite.
 // Complejidad Peor caso O(n), con factor de load mayor a .75, si no se vuelve O(1).
+//Recibe como parámetros una string cosntante referenciada, y un RegisterEntry referenciado, no tiene valor de retorno.
 void MyHashTable::put(const string &key, RegisterEntry &reg) {
     double cargaFactor = size * 1.0 / sizeA;
     if (cargaFactor > 0.75) {
@@ -71,6 +77,7 @@ void MyHashTable::put(const string &key, RegisterEntry &reg) {
 
 // Método para obtener el RegisterEntry de una IP.
 // Complejidad: O(1)
+//Recibe como parámetr un string cosntante referenciado y retorna un RegisterEntry.
 RegisterEntry MyHashTable::get(const string &key) {
     int pos = getPos(key);
     MyLinkedList *lista = &this->tabla[pos];
@@ -79,6 +86,7 @@ RegisterEntry MyHashTable::get(const string &key) {
 
 // Método para remover una ip y su RegisterEntry.
 // Complejidad O(n)
+//Recibe como parámetro una constante string referenciada y no tiene valor de retorno.
 void MyHashTable::remove(const string &key) {
     int pos = getPos(key);
     this->tabla[pos].removeAt(key);
